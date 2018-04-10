@@ -2,7 +2,7 @@
   <div>
     <div class="links">
         <nuxt-link exact to="/">Home</nuxt-link>        
-        <nuxt-link exact to="/Details">Details</nuxt-link>
+        <nuxt-link exact to="/Filters">Filters</nuxt-link>
       </div>
     <nuxt/>
   </div>

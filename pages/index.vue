@@ -14,7 +14,6 @@
             <img :src="person.img_url" alt="">
           </center>
           Name: {{ person.name }}<br>
-          Email: {{ person.email }}
         </nuxt-link>
       </div>
     </div>
@@ -23,7 +22,6 @@
 
 <script>
 import { mapState } from "vuex";
-import axios from "axios";
 
 export default {
   data() {
