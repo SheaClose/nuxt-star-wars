@@ -50,53 +50,53 @@ export default {
 </script>
 
 <style scoped>
-img {
-  display: block;
-  margin: 15px;
-}
-.card {
-  overflow: hidden;
-  width: 27%;
-  padding: 15px;
-  display: inline-block;
-  height: 200px;
-  margin: 25px auto;
-}
-.btn {
-  background-color: #0088ff;
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-}
-.btn:hover {
-  opacity: 0.8;
-}
-.btn:disabled {
-  opacity: 0.2;
-}
-.btns {
-  display: flex;
-  justify-content: space-around;
-  /* transform: translate(0, 50%); */
-}
-.card_container {
-  width: 80%;
-  margin: 10px auto;
-  display: flex;
-  flex-wrap: wrap;
-  align-content: space-between;
-}
-h1 {
-  text-align: center;
-}
-.boy {
-  background-color: #00bfff;
-}
-.girl {
-  background-color: #ff00ee;
-}
+  img {
+    display: block;
+    margin: 15px;
+  }
+  .card {
+    overflow: hidden;
+    width: 27%;
+    padding: 15px;
+    display: inline-block;
+    height: 200px;
+    margin: 25px auto;
+  }
+  .btn {
+    background-color: #0088ff;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+  .btn:hover {
+    opacity: 0.8;
+  }
+  .btn:disabled {
+    opacity: 0.2;
+  }
+  .btns {
+    display: flex;
+    justify-content: space-around;
+    /* transform: translate(0, 50%); */
+  }
+  .card_container {
+    width: 80%;
+    margin: 10px auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+  }
+  h1 {
+    text-align: center;
+  }
+  .boy {
+    background-color: #00bfff;
+  }
+  .girl {
+    background-color: #ff00ee;
+  }
 </style>
